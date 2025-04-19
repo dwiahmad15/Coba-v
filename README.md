@@ -3,11 +3,23 @@
 <! required itu buat kalo belum ke isi ada tandanya->
 <! Forum ->
 <form action="">
-  <label for="contat-nama">Name</label>
-  <input type="Name " name="Name " id="contat-nama" required />
-  <br />
   <label for="contat-email">Email</label>
-  <input type="email" name="email" id="contat-email" required />
+  <input
+    type="email"
+    name="email"
+    id="contat-email"
+    required
+    placeholder="Enter your Email"
+  />
+  <br />
+  <label for="contat-password">Password</label>
+  <input
+    type="password"
+    name="password"
+    id="contat-password"
+    required
+    placeholder="Enter your password"
+  />
   <br />
   <button type="submit">Kirim</button>
 </form>
